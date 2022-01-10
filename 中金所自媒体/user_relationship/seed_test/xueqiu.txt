@@ -1,0 +1,2 @@
+{"site_name":"雪球","site_id":77,"relationship_type":"follower","user_id":"7285395547995552","user_name":"梅事聊",}
+{"site_name":"雪球","site_id":77,"relationship_type":"follow","user_id":"7285395547995552","user_name":"梅事聊"}

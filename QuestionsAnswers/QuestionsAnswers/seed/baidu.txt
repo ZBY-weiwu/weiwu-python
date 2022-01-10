@@ -1,0 +1,1 @@
+{"site_id":1,"board_name": "百度问答-再问-娱乐休闲","site_name": "baiduwenda","entry_url":"https://zhidao.baidu.com","board_id": 10,"board_url":"https://zhidao.baidu.com/list?category={}","config":"娱乐休闲"}

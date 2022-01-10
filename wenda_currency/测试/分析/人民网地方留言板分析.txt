@@ -1,0 +1,8 @@
+url = "http://liuyan.people.com.cn/threads/queryThreadsList"
+data= "fid=0&state=1&lastItem=0"
+headers ={"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "Referer": "http://liuyan.people.com.cn/threads/list?fid=3902",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",
+          "X-Requested-With": "XMLHttpRequest"}
+
+fid 是板块id，lastItem第一页默认是0，下一页：lastItem是上一页的最后一个tid值

@@ -1,0 +1,9 @@
+
+//选择不包含class属性的节点
+var result = node.SelectNodes(".//span[not(@class)]");
+//选择不包含class和id属性的节点
+var result = node.SelectNodes(".//span[not(@class) and not(@id)]");
+//选择不包含class="expire"的span
+var result = node.SelectNodes(".//span[not(contains(@class,'expire'))]");
+//选择包含class="expire"的span
+var result = node.SelectNodes(".//span[contains(@class,'expire')]");

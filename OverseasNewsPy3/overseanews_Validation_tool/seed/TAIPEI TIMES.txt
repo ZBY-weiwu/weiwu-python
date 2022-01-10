@@ -1,0 +1,21 @@
+[
+    {
+        "proxy_enabled": 1,
+        "js_enabled": 0,
+        "media_name": "TAIPEI TIMES",
+        "board_name": "TAIPEI TIMES-首页",
+        "media_id": 68136,
+        "entry_url": "https://www.taipeitimes.com/",
+        "detail_page_url": "https://www.taipeitimes.com/News/front/archives/2021/12/22/2003769990",
+        "extractor_config": {
+            "extract_config": {
+                "title_xpath": "//*[@id=\"left_blake\"]/div[1]/h1",
+                "title_re": "",
+                "content_xpath": "//*[@id="left_blake"]/div[1]",
+                "content_re": "",
+                "publish_time_xpath": "//div[@class=\"page spage\"]//h6",
+                "publish_time_re": ""
+            }
+        }
+    }
+]

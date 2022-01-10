@@ -1,0 +1,22 @@
+[
+    {
+        "proxy_enabled": 1,
+        "js_enabled": 0,
+        "media_name": "中文导报网",
+        "board_name": "中文导报网-首页",
+        "media_id": 68138,
+        "board_id": 12776043,
+        "entry_url": "https://www.chubun.com/",
+        "detail_page_url": "https://www.chubun.com/modules/article/view.article.php/195875/c141",
+        "extractor_config": {
+            "extract_config": {
+                "title_xpath": "//*[@id=\"pagetitle\"]/div[1]",
+                "title_re": "",
+                "content_xpath": "//*[@id=\"article-body\"]//div",
+                "content_re": "",
+                "publish_time_xpath": "//*[@id=\"pagetitle\"]/div[2]",
+                "publish_time_re": ""
+            }
+        }
+    }
+]

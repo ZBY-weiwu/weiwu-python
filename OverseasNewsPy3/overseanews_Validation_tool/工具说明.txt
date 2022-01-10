@@ -1,0 +1,6 @@
+说明：
+    （1）需要从配置平台配置好网站。
+    （2）提取site_id 写到配置文件里对应的字段
+    （3）配置好的任务会执行是否写入Pg表内（True|False）
+配置说明：
+    运行 python3 overseasnews_main.py

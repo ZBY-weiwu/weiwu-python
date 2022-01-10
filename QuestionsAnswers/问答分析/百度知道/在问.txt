@@ -1,0 +1,63 @@
+﻿在问-
+
+
+https://zhidao.baidu.com/list?category=娱乐休闲
+https://zhidao.baidu.com/list?category=游戏
+https://zhidao.baidu.com/list?category=母婴
+https://zhidao.baidu.com/list?category=旅游
+https://zhidao.baidu.com/list?category=家电数码
+https://zhidao.baidu.com/list?category=教育培训
+https://zhidao.baidu.com/list?category=金融财经
+https://zhidao.baidu.com/list?category=互联网
+https://zhidao.baidu.com/list?category=科技
+https://zhidao.baidu.com/list?category=汽车
+https://zhidao.baidu.com/list?category=情感与心理
+https://zhidao.baidu.com/list?category=生活
+https://zhidao.baidu.com/list?category=时尚美容
+https://zhidao.baidu.com/list?category=文化历史
+https://zhidao.baidu.com/list?category=医疗健康
+https://zhidao.baidu.com/list?category=政策法规
+https://zhidao.baidu.com/list?category=职业
+https://zhidao.baidu.com/list?category=三农
+https://zhidao.baidu.com/list?category=生产制造
+https://zhidao.baidu.com/list?category=其他
+
+https://zhidao.baidu.com/list?category=三农
+pn是翻页 每次40,0是第一页
+
+https://zhidao.baidu.com/list?category=娱乐休闲&rn=40&pn=0&ie=utf8&_pjax=%23j-question-list-pjax-container
+https://zhidao.baidu.com/list?category=娱乐休闲&rn=40&pn=40&ie=utf8&_pjax=%23j-question-list-pjax-container
+
+第一次请求参数
+GET https://zhidao.baidu.com/list?category=%E5%A8%B1%E4%B9%90%E4%BC%91%E9%97%B2&fr=daohang HTTP/1.1
+Host: zhidao.baidu.com
+Connection: keep-alive
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+第二次请求
+GET https://zhidao.baidu.com/list?category=%E5%A8%B1%E4%B9%90%E4%BC%91%E9%97%B2&fr=daohang HTTP/1.1
+Host: zhidao.baidu.com
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+sec-ch-ua-mobile: ?0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: ZD_ENTRY=empty; BAIDUID=DC004BE9E557DCA2CE1FD6542FAD4207:FG=1; BAIDUID_BFESS=DC004BE9E557DCA2CE1FD6542FAD4207:FG=1; __yjs_duid=1_ba90fe80defd0c5e4ca8a6ef83c09c5e1628474096769; Hm_lvt_6859ce5aaf00fb00387e6434e4fcc925=1628474097; Hm_lpvt_6859ce5aaf00fb00387e6434e4fcc925=1628474097; ab_sr=1.0.1_ZjQ4MjZjNTdiMWI2MTcyNmQ5N2M5MTJlNGMyMjBhN2UzMWIxOGI1NzZmMmU2NTNiNDlhYjgyOTI2YTMwMjA2NGE4NGM0YmFiY2JlYjVkNmQyZmFmYWQ2OGQ5NTBjODFmZmQwNzQ2ZjE2M2I0MTIyNDk2YTdiY2VjNTZlNzMxNDczZWIzMTdlYTA0OGEyOGRmYWU2NDYyMDliMDEwM2I1Zg==; shitong_key_id=2; shitong_data=82da467dfa4d7cf4e952a2fd6cd79a89dcfa802974a4c506456c132d99fe6995dbab2b5f6559043aa3288d5d48d94115c05752044fde667a9d59b427d595b381d6e2b0ba2f0acd4eea574779b598d92ee9b36979d828e9b7decc36e16c8947d1465719016d5d547abaa9ee7152c2afab24b89de4a5629afdf30ea8cae1ae83cd; shitong_sign=807979e7

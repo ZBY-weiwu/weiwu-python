@@ -1,0 +1,24 @@
+POST https://m.facebook.com/preaudience/friends?unit_cursor=AQHRNbbThRZZJfxA7iMRbbas_jyZYC4x1WRltZVn7JgYmb9oxCVUBSoYL1NWC4BXg7KNeNNtPw83ZYqvaHa5xthrAQ&lst=100052975728068%3A1353352331%3A1625763425 HTTP/1.1
+#解码
+https://m.facebook.com/preaudience/friends?unit_cursor=AQHRNbbThRZZJfxA7iMRbbas_jyZYC4x1WRltZVn7JgYmb9oxCVUBSoYL1NWC4BXg7KNeNNtPw83ZYqvaHa5xthrAQ&lst=100052975728068:1353352331:1625763425
+Host: m.facebook.com
+Connection: keep-alive
+Content-Length: 392
+X-FB-LSD: 3LkSAVYNyMK1nkXxZsKfVY
+Content-Type: application/x-www-form-urlencoded
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+X-Response-Format: JSONStream
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: */*
+Origin: https://m.facebook.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://m.facebook.com/preaudience/friends
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: datr=BSjnYFIyf5H9u1eJUseFgaLd; sb=zijnYO4pwY6rLua_4GADS9NT; c_user=100052975728068; xs=6%3AsE5b_gJHPc0bdQ%3A2%3A1625761999%3A-1%3A15002; fr=1XFxXtbT0zslNBl7S.AWX2ByvyonJlprGy-_QKGNRBr8M.Bg5yjO.m-.AAA.0.0.Bg5yjO.AWXC1qMf0mA; spin=r.1004090343_b.trunk_t.1625762002_s.1_v.2_; m_pixel_ratio=1; x-referer=eyJyIjoiL3Blb3BsZS8lMjVFOSUyNUJCJTI1ODMlMjVFOSUyNTlCJTI1ODUlMjVFNiUyNUEyJTI1ODUvMTAwMDA0MTAwMjYxMTQ2Lz9zaz1mcmllbmRzIiwiaCI6Ii9wZW9wbGUvJTI1RTklMjVCQiUyNTgzJTI1RTklMjU5QiUyNTg1JTI1RTYlMjVBMiUyNTg1LzEwMDAwNDEwMDI2MTE0Ni8%2Fc2s9ZnJpZW5kcyIsInMiOiJtIn0%3D; wd=1232x1031
+
+fb_dtsg=AQE-tQn2EKm9tGI%3AAQE8qWzucPRO3Kw&jazoest=22540&lsd=3LkSAVYNyMK1nkXxZsKfVY&__dyn=1KQEGiFo525Ujwh8-t0BBBgS5UqxKcwRwAxu3-U2owSwMxW0Horx64o720SUhwem0iy1gCwSxu0BU3JxO1ZxObwro7ifw5KzHzo2Xwbq1gwwyo36w9yq3q0H8-7E2swp834wmE2ewnE2Lwg81soGdw&__csr=&__req=h&__a=AYl_pcF2xbpz3bFpLyVdp_PWuOcSZ430KJof24ll-cRvHCLkIxtGrky8zJ2GsCRoFZGC5su6COY26x3Nv3VHTeEuW8iZYsQGhfggq8UfYepTYQ&__user=100052975728068

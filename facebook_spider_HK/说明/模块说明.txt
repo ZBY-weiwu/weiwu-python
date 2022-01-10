@@ -1,0 +1,13 @@
+facebook_scraper 中（第57行）添加
+
+再报错位置加上
+/usr/local/lib/python3.6/site-packages/facebook_scraper/facebook_scraper.py
+proxies = {"http":"http://127.0.0.1:1081","https":"https://127.0.0.1:1081"}
+self.session.proxies = proxies
+response = self.session.get(url=url, **self.requests_kwargs, **kwargs)
+
+
+发布时间时间抽取
+m端每篇文章源码:cacheBust
+案例
+&cacheBust=1607131515-7

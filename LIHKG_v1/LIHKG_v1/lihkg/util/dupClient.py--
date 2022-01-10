@@ -1,0 +1,54 @@
+#!/usr/bin/env python    
+# -*- coding: UTF-8 -*-
+import sys    
+import requests
+import json
+import base64
+
+class DUPClient:
+    def __init__(self):
+        pass
+
+    #channel通道，同一个channel名称，会放到一块。
+    #boardId暂时不用    
+    #cacheDay缓存天数，为0，则永久缓存，其他值则为缓存天数。
+    #url和isMD5两个参数。如果url不是md5值，isMD5设置为true，接口会将url转成md5再去重
+    def findAndSet(self, channel, expire, url):
+        d = {}
+        d["channel"] = channel
+        d["expire"] = expire
+        d["target"] = url
+        r = requests.post('http://192.168.200.82:8799/golaxy/wde/crawler/deduplication/v1', data = json.dumps(d), headers = {'Accept': 'application/json','Content-Type': 'application/json'}, timeout = 5000)
+        d = json.loads(r.text)
+#        print r.text
+        if(d['message'] == 'SUCESS'):
+            return d['targetExists']
+        else:
+            return False
+
+    def confirm(self, channel, url):
+        d = {}
+        d["channel"] = channel
+        d["expire"] = 0
+        d["target"] = url
+        r = requests.put('http://192.168.200.82:8799/golaxy/wde/crawler/deduplication/v1', data = json.dumps(d), headers = {'Accept': 'application/json','Content-Type': 'application/json'}, timeout = 5000)
+#        print r.text
+    
+    def delete(self, channel, url):
+        '''
+        d = {}
+        d["channel"] = channel
+        d["expire"] = 0
+        d["target"] = base64.b64encode(url)
+        '''
+        url = "http://192.168.200.82:8799/golaxy/wde/crawler/deduplication/v1/"+channel+"/"+base64.b64encode(url) 
+        #r = requests.delete(url, data = json.dumps(d), headers = {'Accept': 'application/json','Content-Type': 'application/json'}, timeout = 5000)
+        r = requests.delete(url, headers = {'Accept': 'application/json','Content-Type': 'application/json'}, timeout = 5000)
+#        print r.text
+        
+
+if __name__ == "__main__":
+    client = DUPClient()
+    print client.findAndSet('bbs', 60, 'http://istock.jrj.com.cn/article,600019,13350880.html')
+    client.confirm('bbs', 'http://istock.jrj.com.cn/article,600019,13350880.html')
+    client.delete('bbs', 'http://istock.jrj.com.cn/article,600019,13350880.html')

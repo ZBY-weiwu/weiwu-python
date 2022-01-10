@@ -1,0 +1,3 @@
+2020-08-06 14:20:58,237 INFO /root/zby/oversea_Social_media/LIHKG_v1/lihkg/lihkg/spiders/lihkg_spider.py:58 [appnewsarticles]:board_id=1,entry_url=https://lihkg.com/api_v2/thread/category?cat_id=38&page=1&count=60&type=now
+2020-08-06 14:20:58,281 INFO /root/zby/oversea_Social_media/LIHKG_v1/lihkg/lihkg/spiders/lihkg_spider.py:58 [appnewsarticles]:board_id=2,entry_url=https://lihkg.com/api_v2/thread/category?cat_id=33&page=1&count=60&type=now
+2020-08-06 14:20:59,166 INFO /root/zby/oversea_Social_media/LIHKG_v1/lihkg/lihkg/spiders/lihkg_spider.py:58 [appnewsarticles]:board_id=3,entry_url=https://lihkg.com/api_v2/thread/category?cat_id=5&page=1&count=60&type=now

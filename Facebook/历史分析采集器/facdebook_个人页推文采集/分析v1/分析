@@ -1,0 +1,36 @@
+POST https://m.facebook.com/profile/timeline/stream/?cursor=AQHRbEqy1XUDApKNXCr_r5erk9E82ltXLcwrPQlEj0hk_yWr20J5twJFqtC1KMxoI6CcnKQp7V-lJGlS9yJM11MDf9ldfIlmd9r_dlaekbikFGcMvi5IKE5qgwmtAHyxQC2_&start_time=-9223372036854775808&profile_id=100000405556511&replace_id=u_p_0_F7 HTTP/1.1
+Host: m.facebook.com
+Connection: keep-alive
+Content-Length: 421
+X-FB-LSD: 6l8bv_E2xet4724p2z0tWq
+Content-Type: application/x-www-form-urlencoded
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+X-Response-Format: JSONStream
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Accept: */*
+Origin: https://m.facebook.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://m.facebook.com/chungchunwong/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: sb=OMm-YJvgaMRoH0q_lUahyZGd; datr=Rcm-YHBQSPzUAvapJ15QHjlO; locale=zh_TW; c_user=100052975728068; spin=r.1004113327_b.trunk_t.1626319839_s.1_v.2_; dpr=1.375; xs=10%3AxHkde9jZN4OWfQ%3A2%3A1626319821%3A-1%3A15002%3A%3AAcXspMJzlmc-7dJdOvsf3KJ7Tmou2tcyDTkYVTdd3A; fr=1s6Gdx66EauOeySD6.AWXfg63DNgU_5enLBPfhjGYIZJw.Bg78nd.RY.AAA.0.0.Bg78nd.AWU_Y4GE-UQ; m_pixel_ratio=1.25; wd=1519x380
+
+fb_dtsg=AQHY0oV4jxQ8jLQ%3A10%3A1626319821&jazoest=21962&lsd=6l8bv_E2xet4724p2z0tWq&__dyn=1KQEGiFo525Ujwh8-t0BBBgS5UqxKcwRwAxu3-UcodUbEdEc8uKewhEfolxK4ohx21vwdK4olwYw9a260gq1gCwSxu0BU3JxO1ZxObwro7ifw5lxyeKdwGwFU6i12wsU52229wcq0C9EdE2IzUuw9O1Aw9-2i1qw8W1uwa-10w4cwp8Gdw&__csr=&__req=18&__a=AYlmPLmGsZSPd45aiQ2B5OM6zaT-R4-3eYMupLs-p7qpDqAz6DjtzER9V1lCYybVkG7ziMgahSUitfZc-tREBArZ0uK_TCn5I6W0VONB8m6rKQ&__user=100052975728068
+
+
+
+删去部分
+"""\u003Cdiv>\u003Ca href=\"#\" role=\"button\" class=\"_56bz _54k8 _55i1 _58a0 touchable\" data-store=\"{"nativeClick":true}\" rel=\"ignore\" id=\"share-one-click-button\" data-sigil=\"touchable touchable share-one-click-button\">\u003Ci class=\"_4_m5 _56br img sp_rxwB4_I409k_1_5x sx_32961a\">\u003C\/i>\u003Cspan class=\"_55sr\">\u7acb\u5373\u5206\u4eab\u003C\/span>\u003C\/a>\u003Ca href=\"#\" role=\"button\" class=\"_56bz _54k8 _55i1 _58a0 touchable\" data-store=\"{"nativeClick":true}\" rel=\"ignore\" id=\"share-post-one-click-button\" data-sigil=\"touchable touchable share-post-one-click-button\">\u003Ci class=\"_4_m5 _56br img sp_rxwB4_I409k_1_5x sx_32961a\">\u003C\/i>\u003Cspan class=\"_55sr\">\u5feb\u8f6c\u003C\/span>\u003C\/a>\u003Ca href=\"#\" role=\"button\" class=\"_54k8 _55i1 _58a0 touchable\" data-store=\"{"nativeClick":true}\" rel=\"ignore\" id=\"share-with-message-button\" data-sigil=\"touchable touchable share-with-message-button\">\u003Cspan class=\"_55sr\">\u53d1\u5e16\u003C\/span>\u003C\/a>\u003Ca href=\"#\" role=\"button\" class=\"_54k8 _55i1 _58a0 touchable\" data-store=\"{"nativeClick":true}\" rel=\"ignore\" id=\"share-in-a-private-message-button\" data-sigil=\"touchable touchable share-in-a-private-message-button\">\u003Cspan class=\"_55sr\">\u901a\u8fc7\u6d88\u606f\u53d1\u9001\u003C\/span>\u003C\/a>\u003Ca href=\"#\" role=\"button\" class=\"_54k8 _55i1 _58a0 touchable\" data-store=\"{"nativeClick":true}\" rel=\"ignore\" id=\"share-in-a-group-button\" data-sigil=\"touchable touchable share-in-a-group-button\">\u003Cspan class=\"_55sr\">\u5728\u5c0f\u7ec4\u4e2d\u5206\u4eab\u003C\/span>\u003C\/a>\u003C\/div>"""
+搜content_id_raw：是正文的id
+https://m.facebook.com/story.php?story_fbid=4282964135060396&id=100000405556511
+https://m.facebook.com/story.php?story_fbid=4285317184825091&id=100000405556511
+https://m.facebook.com/story.php?story_fbid=4285366291486847&id=100000405556511
+https://m.facebook.com/story.php?story_fbid=4279365978753545&id=100000405556511
+pc端
+https://www.facebook.com/chungchunwong/posts/4356534581036684
+移动端:
+https://m.facebook.com/story.php?story_fbid=4356534581036684&id=100000405556511

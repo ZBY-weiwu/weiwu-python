@@ -1,0 +1,1 @@
+{"type":"record", "name":"avro", "fields":[{"name":"_ch","type":"int"},{"name":"_id","type":"string"},{"name":"_key","type":"string"}], "description":"avroschema"}
